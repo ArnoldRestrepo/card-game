@@ -1,4 +1,4 @@
-# MARVEL Card Game based in Components CSS
+# MARVEL Game Card based in Components CSS
 
 ## Use SuiteCSS
 

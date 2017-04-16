@@ -1,0 +1,25 @@
+{
+  "name": "marvel-game-card",
+  "version": "0.1.0",
+  "description": "MARVEL Game Card based in Components CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "stylus -c -w -o ./public/css/  ./lib/app.styl",
+    "pug": "pug -P -w -o ./public/ ./lib/index.pug",
+    "build": "npm run css && npm run pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnoldRestrepo/card-game.git"
+  },
+  "author": "Arnold Retrepo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArnoldRestrepo/card-game/issues"
+  },
+  "homepage": "https://github.com/ArnoldRestrepo/card-game#readme",
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}

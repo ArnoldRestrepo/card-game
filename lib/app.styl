@@ -1,0 +1,28 @@
+// Components
+@import "./card/styles"
+
+test(color)
+  border 1px solid color
+  box-sizing border-box
+body
+  font-size 16px
+
+.Layout
+  display flex
+  margin .5em
+  padding .5em
+  test(brown)
+  > section
+    margin 1em
+  &-status
+    test(purple)
+  &-battle
+    test(gray)
+  &-phases
+    test(aqua)
+  &-antagonist
+    test(darkred)
+  &-player
+    test(currentColor)
+
+
