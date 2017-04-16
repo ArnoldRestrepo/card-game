@@ -1,0 +1,40 @@
+// test(color)
+// 	border 1px solid color
+// 	box-sizing border-box
+
+.Layout
+	display flex
+	flex-direction column
+	padding .5em
+	justify-content space-between
+	background-image url("../img/city.jpg")
+	background-size cover
+	min-height 100vh
+	test(brown)
+	> section
+		margin 1em
+	&-main
+		display flex
+		justify-content space-between
+	&-status
+		test(purple)
+		flex-basis 200px
+	&-battle
+		test(gray)
+		flex 1 1
+		background-image url('../img/pattern.jpg')
+		margin 0 .5em
+	&-phases
+		test(aqua)
+		flex-basis 200px
+		position relative
+	&-antagonist
+		test(darkred)
+		display flex
+		justify-content space-between
+		flex-flow wrap
+	&-player
+		test(currentColor)
+		display flex
+		justify-content space-between
+		flex-flow wrap

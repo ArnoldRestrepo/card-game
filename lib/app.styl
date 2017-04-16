@@ -1,28 +1,21 @@
+// Nib
+@import "nib"
+
 // Components
-@import "./card/styles"
+@import "./components/components"
+@import "./layout/layout"
+@import "./card/card"
+@import "./status/status"
+@import "./phases/phases"
+@import "./battle/battle"
 
-test(color)
-  border 1px solid color
-  box-sizing border-box
 body
-  font-size 16px
+	font-size 16px
+	font-family  Helvetica, sans-serif, arial
+	margin 0
+	padding 0
 
-.Layout
-  display flex
-  margin .5em
-  padding .5em
-  test(brown)
-  > section
-    margin 1em
-  &-status
-    test(purple)
-  &-battle
-    test(gray)
-  &-phases
-    test(aqua)
-  &-antagonist
-    test(darkred)
-  &-player
-    test(currentColor)
+
+
 
 

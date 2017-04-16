@@ -1,0 +1,29 @@
+//- Layout
+section.Layout
+    //- Enemy
+    section.Layout-antagonist
+        each card in [1,2,3,4,5]
+            include ../card/template
+    //- Main
+    section.Layout-main
+        //- Status
+        .Layout-status
+            each name in ["Usuario Uno", "Usuario Dos"]
+                include ../status/template
+        //- Battle
+        .Layout-battle
+            .Battle
+                .Battle-antagonist
+                    each card in [1,2,3]
+                        include ../card/template
+                .Battle-player
+                    each card in [1,2,3]
+                        include ../card/template  
+        //- Phases
+        .Layout-phases
+            -text = "OMG GOD attack!! is real true"
+            include ../phases/template
+    //- Player
+    section.Layout-player
+        each card in [1,2,3,4,5]
+            include ../card/template

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "stylus -c -w -o ./public/css/  ./lib/app.styl",
+    "css": "stylus -u nib -c -w -o ./public/css/  ./lib/app.styl",
     "pug": "pug -P -w -o ./public/ ./lib/index.pug",
     "build": "npm run css && npm run pug"
   },
